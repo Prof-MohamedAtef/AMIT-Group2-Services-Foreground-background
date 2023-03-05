@@ -49,7 +49,7 @@ public class MyForegroundServiceActivity extends AppCompatActivity {
         stopService(foregroundIntent);
     }
 
-    private void startService(){
+    public void startService(){
         foregroundIntent.putExtra(Constants.FOREGROUND_SERVICE_INTENT,"Foreground Service is running ...");
         ContextCompat.startForegroundService(MyForegroundServiceActivity.this, foregroundIntent);
     }

@@ -12,4 +12,5 @@ public class Constants {
     public static String BaseUrl="https://newsapi.org/v2";
     public static String FOREGROUND_SERVICE_INTENT="foreground";
     public static String CHANNEL_ID="CHANNEL_ID";
+    public static String IS_MUSIC_RUNNING="IS_RUNNING";
 }
